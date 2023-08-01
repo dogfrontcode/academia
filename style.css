@@ -1,0 +1,78 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.img_lock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w3-card-4 {
+    width: 300px;
+    border-radius: 25px;
+    justify-content: center;
+  }
+
+  .w3-card-4 img {
+    
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    
+  }
+
+  .w3-card-4 .beckground_text {
+    border-radius: 25px;
+  }
+
+body{
+    font-family: 'Agdasima', sans-serif;
+}
+
+.beckground_text{
+    background-color: black;
+    color: aliceblue;
+    
+
+    text-align: center;
+    
+}
+.img_lock {
+  filter: grayscale(100%);
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px ;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/* agora vamos a parte de css das outras paginas que vão seguir um padrão */
+
+.container2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+  background-color: aqua;
+  width: 250px;
+  border
+}

@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 80px;
+  width: 90%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3em; /* increase font size */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 2em; /* increase font size */
+}
+
+tr:nth-child(even) {
+  background-color: #333333;
+}
+
+th {
+  background-color: #4CAF50;
+  font-size: 2em; /* increase font size */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 2em; /* increase font size */
+}
+
+input[type=number] {
+  width: 100%;
+  background-color: #333333;
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 2em; /* increase font size */
+}
+
+#FOTO_DO_BANNER {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px auto;
+}
+
+/* Header desing */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 40px;
+  background: #333333;
+  z-index: 9999;  /* Isto garante que o cabeçalho fique sempre em cima dos outros elementos */
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.send{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w3-button {
+  width:200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+  body {
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  th, td {
+    font-size: 1em;
+  }
+
+  a {
+    font-size: 25px;
+  }
+
+  input[type=number] {
+    width: 200px;
+    padding: 5px;
+    font-size: 2em;
+  }
+
+  #FOTO_DO_BANNER {
+    width: 600px;
+  }
+}
